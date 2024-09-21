@@ -1,37 +1,3 @@
-// const express = require("express");
-// const app = express();
-// const api = require("./routes/api");
-// const connectDb = require("./DB/connectDB");
-// const fileUpload = require("express-fileupload");
-// const cors = require("cors");
-
-// const dotenv = require("dotenv");
-
-// // path define of dotenv
-// dotenv.config({
-//   path: ".env",
-// });
-
-// app.use(cors());
-
-// app.use("/api", api);
-
-// // tempfiles uploader
-// app.use(fileUpload({ useTempFiles: true }));
-
-// // data get
-// app.use(express.json());
-
-// app.use(express.urlencoded({ extended: true }));
-
-// // database connect
-// connectDb();
-
-// app.listen(process.env.PORT, () =>
-//   console.log(`Localhost : ${process.env.PORT}`)
-// );
-
-
 const express = require("express");
 const app = express();
 const api = require("./routes/api");
